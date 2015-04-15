@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/countUp/countUp.css">
+</head>
+<body>
+
+<div id="container" class="container">
+    <div id="inputDiv" class="form-control">
+        <form id="countUpForm">
+            <table class="table-bordered">
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="countTo">Enter the end value for the counter:</label>
+                    </td>
+                    <td>
+                        <input id="countTo" name="countTo" type="text" value="0.8976"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="time">Enter the count up duration in ms:</label>
+                    </td>
+                    <td>
+                        <input id="time" name="time" type="text" value="10000"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fps">Enter the frame rate in fps:</label>
+                    </td>
+                    <td>
+                        <input id="fps" name="fps" type="text" value="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dec">Enter rounding decimal numbers:</label>
+                    </td>
+                    <td>
+                        <input id="dec" name="dec" type="text" value="4"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" id="submitBtn">start counter</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Counter:</label>
+                    </td>
+                    <td id="counterField">
+                        <label id="counterVal">0</label>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/countUpTest/counter.js" type="text/javascript"></script>
+<script src="js/countUpTest/main.js" type="text/javascript"></script>
+<!-- tests for the counter -->
+<!--<script src="js/countUpTest/testMain.js" type="text/javascript"></script>-->
+</body>
+</html>
