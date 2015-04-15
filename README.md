@@ -4,15 +4,17 @@ Count up meter based upon time and working independently to project framerate
 # Run example
 http://brumenlab.com/testProjects/counter/
 
-Technologies used: 
+# Technologies used: 
 - HTML
 - jQuery
 - JavaScript
 - CSS
 - Bootstrap
 
+# install
+Just download and put on the web server of your choice.
 
-Project Structure:
+# Project Structure:
 /index.html -> project main page
 /css/countUp/countUp.css -> css file that defines the index.html look and feel (based upon bootstrap)
 /fonts/ -> folder which contains fonts that are used on the project
