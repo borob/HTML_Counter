@@ -1,6 +1,8 @@
 # HTML_Counter
 Count up meter based upon time and working independently to project framerate
 
+# Run example
+http://brumenlab.com/testProjects/counter/
 
 Technologies used: 
 - HTML
